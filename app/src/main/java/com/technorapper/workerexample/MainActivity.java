@@ -1,4 +1,4 @@
-package com.pratikbutani.workerexample;
+package com.technorapper.workerexample;
 
 import android.content.pm.PackageManager;
 import android.os.Bundle;
@@ -7,17 +7,15 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.databinding.DataBindingUtil;
-import androidx.work.Data;
 import androidx.work.ExistingPeriodicWorkPolicy;
 import androidx.work.PeriodicWorkRequest;
 import androidx.work.WorkInfo;
 import androidx.work.WorkManager;
 
-import com.pratikbutani.workerexample.databinding.ActivityMainBinding;
+import com.technorapper.workerexample.databinding.ActivityMainBinding;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;
